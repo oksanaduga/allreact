@@ -2,11 +2,11 @@ import React from "react";
 import MyButton from './ui/button/MyButton'
 import '../styles/App.scss'
 
-const PostItem = function ({post, number, remove}) {
+const PostItem = function ({post, remove}) {
 	return (
 		<div className='post'>
 			<div className='post__content'>
-				<strong>{number} {post.title}</strong>
+				<strong>{post.id} {post.title}</strong>
 				<div>
 					{post.body}
 				</div>
