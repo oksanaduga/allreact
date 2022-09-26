@@ -69,3 +69,7 @@
 .navbar__links {
   margin-left: auto;
 }
+
+.post.post-enter-done > div:first-child {
+  flex-grow: 1;
+}
